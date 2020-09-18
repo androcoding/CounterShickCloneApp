@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/ripple_color"
+    android:bottomLeftRadius="12dp"
+    android:bottomRightRadius="12dp"
+    android:topLeftRadius="12dp"
+    android:topRightRadius="12dp"
+    >
+    <item android:id="@+id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/shock_theme_color"/>
+            <corners
+                android:bottomLeftRadius="12dp"
+                android:bottomRightRadius="12dp"
+                android:topLeftRadius="12dp"
+                android:topRightRadius="12dp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ripple_filled"/>
+
+</ripple>
